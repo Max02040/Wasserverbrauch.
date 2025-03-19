@@ -1,0 +1,13 @@
+
+cd pfad/zum/projekt
+
+git init  
+
+git add .  
+
+git commit -m "Erster Upload"
+
+git remote add origin https://github.com/DEIN-GITHUB-NAME/wasserverbrauch-app.git  
+
+
+git push -u origin main  
