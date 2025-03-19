@@ -1,0 +1,19 @@
+# Falls du Git noch nicht hast, installiere es zuerst: https://git-scm.com/downloads
+
+# Navigiere zu deinem Projektordner
+cd pfad/zum/projekt
+
+# Git initialisieren
+git init  
+
+# Dateien zum Commit hinzufügen
+git add .  
+
+# Commit erstellen
+git commit -m "Erster Upload"
+
+# Verknüpfe dein GitHub-Repository (ersetze den Link mit deinem Repo-Link!)
+git remote add origin https://github.com/DEIN-GITHUB-NAME/wasserverbrauch-app.git  
+
+# Code hochladen
+git push -u origin main  
